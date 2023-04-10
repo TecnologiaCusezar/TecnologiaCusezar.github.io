@@ -1,0 +1,13 @@
+/* Content-Type: application/json */
+{
+    /**
+     * Ejemplo cuerpo solicitud
+     */
+    "action": "", // Requerido
+    "params": [
+        {
+            "name": "", // Clave 
+            "value": "" // Valor
+        }
+    ]
+}
