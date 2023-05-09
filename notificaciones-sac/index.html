@@ -16,7 +16,7 @@
     integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N"
     crossorigin="anonymous"></script>
   <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
-  <script>const p = document.location.pathname; const h = p.endsWith('/'); if (!h) window.location.href = p + '/';</script>
+  <script>let path_descriptor = document.location.pathname; let has_token = path_descriptor.endsWith('/'); if (!has_token) window.location.href = path_descriptor + '/';</script>
   <title>Confirmación pagos | Constructora Cusezar®</title>
 </head>
 
