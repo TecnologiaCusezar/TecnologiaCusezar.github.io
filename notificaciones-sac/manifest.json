@@ -1,0 +1,10 @@
+{
+    "name": "Notificación pagos SAC",
+    "type": "static",
+    "short_name": "sac-notificacion-pagos",
+    "theme_color": "#e20613",
+    "background_color": "#e20613",
+    "display": "browser",
+    "scope": "/",
+    "start_url": "/"
+}
